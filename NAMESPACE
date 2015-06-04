@@ -1,0 +1,3 @@
+useDynLib(testp, .registration=TRUE)
+export("f4", "f3")
+importFrom(Rcpp, evalCpp)
